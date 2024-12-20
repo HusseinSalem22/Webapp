@@ -1,0 +1,20 @@
+@model Appen.Models.NewsResponse
+
+<h1>Top News Articles</h1>
+<div>
+    
+    @foreach (var article in Model.Data)
+    {
+        <div style="border: 1px solid #ddd; padding: 10px; margin-bottom: 10px;">
+            <h3>@article.Title</h3>
+            <p><strong>Description:</strong> @article.Description</p>
+            <p><strong>Snippet:</strong> @article.Snippet</p>
+            <p><strong>Source:</strong> @article.Source</p>
+            <p><strong>Published At:</strong> @article.PublishedAt.ToString("yyyy-MM-dd HH:mm:ss")</p>
+            <p><strong>Categories:</strong> @string.Join(", ", article.Categories)</p>
+            <p><a href="@article.Url" target="_blank">Read more</a></p>
+            <img src="@article.ImageUrl" alt="Image for @article.Title" style="max-width: 100%; height: auto;" />
+           
+        </div>
+    }
+</div>

@@ -1,0 +1,23 @@
+@model Appen.Models.Quote
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quote</title>
+</head>
+<body style="text-align: center;">
+ 
+    @if (Model != null)
+    {
+        <p><strong>@Model.author:</strong> @Model.quote</p>
+    }
+    else
+    {
+        <p>No quote available!</p>
+    }
+    <form method="post" asp-controller="Quotes" asp-action="index">
+        <br /><br />
+        <button type="submit">Get Random Quote</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "sWSFi6G/dz1BHCX9f5R8Xg1fQbF7mkfjlDfG4WsjmwqC6feup/aNCMS4dp5QlINN6wHvdLtcMhuJo6WhlhCIwQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Hussein Salem\\Desktop\\Projects\\TerraformDemo1\\Appen\\Appen.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hussein Salem\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Hussein Salem\\.nuget\\packages\\microsoft.openapi\\1.6.22\\microsoft.openapi.1.6.22.nupkg.sha512",
+    "C:\\Users\\Hussein Salem\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Hussein Salem\\.nuget\\packages\\swashbuckle.aspnetcore\\7.0.0\\swashbuckle.aspnetcore.7.0.0.nupkg.sha512",
+    "C:\\Users\\Hussein Salem\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\7.0.0\\swashbuckle.aspnetcore.swagger.7.0.0.nupkg.sha512",
+    "C:\\Users\\Hussein Salem\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\7.0.0\\swashbuckle.aspnetcore.swaggergen.7.0.0.nupkg.sha512",
+    "C:\\Users\\Hussein Salem\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\7.0.0\\swashbuckle.aspnetcore.swaggerui.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
